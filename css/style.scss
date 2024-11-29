@@ -1,0 +1,84 @@
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family:  "Poppins", sans-serif;
+}
+
+.container{
+    padding: 2rem 1.5rem;
+    header{
+        text-align: center;
+        h3{
+            font-weight: 200;
+            font-size: 1.7rem;
+
+        }
+        h2{
+            font-size: 1.7rem;
+            font-weight: 600;
+            line-height: 1;
+            color: $Very-Dark-Blue;
+        }
+        p{
+            color: $Grayish-Blue;
+            text-align: initial;
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+    }
+    .card-container{
+        padding: 2rem 0;
+        .card{
+            max-width: 100%;
+            padding: 1.5rem ;
+            box-shadow: 0px 0px 31px -12px rgba(12, 1, 1, 0.75);
+            border-radius: 5px;
+            margin: 1.5rem 0;
+            border-top: 4px solid;
+            &:nth-child(1){
+                border-top-color: $Cyan;
+            }
+            &:nth-child(2){
+                border-top-color: $Red;
+            }
+            &:nth-child(3){
+                border-top-color: $Orange;
+            }
+            &:nth-child(4){
+                border-top-color: $Blue;
+            }
+            h3{
+                font-size: 1.2rem;
+                color: $Very-Dark-Blue;
+                margin-bottom: 6px;
+            }
+            p{
+            color: $Grayish-Blue;
+            font-size: 13px;
+            }
+            .img-container{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 2rem;
+            img{
+                
+            }
+        }
+
+            
+        
+    }
+}
+}

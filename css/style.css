@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 2rem 1.5rem;
+}
+.container header {
+  text-align: center;
+}
+.container header h3 {
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+.container header h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1;
+  color: hsl(234, 12%, 34%);
+}
+.container header p {
+  color: hsl(229, 6%, 66%);
+  text-align: initial;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.container .card-container {
+  padding: 2rem 0;
+}
+.container .card-container .card {
+  max-width: 100%;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 31px -12px rgba(12, 1, 1, 0.75);
+  border-radius: 5px;
+  margin: 1.5rem 0;
+  border-top: 4px solid;
+}
+.container .card-container .card:nth-child(1) {
+  border-top-color: hsl(180, 62%, 55%);
+}
+.container .card-container .card:nth-child(2) {
+  border-top-color: hsl(0, 78%, 62%);
+}
+.container .card-container .card:nth-child(3) {
+  border-top-color: hsl(34, 97%, 64%);
+}
+.container .card-container .card:nth-child(4) {
+  border-top-color: hsl(212, 86%, 64%);
+}
+.container .card-container .card h3 {
+  font-size: 1.2rem;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 6px;
+}
+.container .card-container .card p {
+  color: hsl(229, 6%, 66%);
+  font-size: 13px;
+}
+.container .card-container .card .img-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */
