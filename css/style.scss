@@ -82,3 +82,39 @@ $Very-Light-Gray: hsl(0, 0%, 98%);
     }
 }
 }
+@media(min-width: 768px){
+    .container{
+        .card-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            .card{
+                margin: 0;
+                width: 40%;
+                &:nth-child(3){
+                    order: 4;
+                }
+                &:nth-child(4){
+                    order: 3;
+                }
+            }
+        }
+    }
+}    
+@media(min-width: 992px){
+    .container{
+        .card-container{
+            .card{
+                margin: 0;
+                width: 30.33%;
+                &:nth-child(1){
+                    transform: translateY(50%);
+                }
+                &:nth-child(4){
+                    transform: translateY(50%);
+                }
+            }
+        }
+    }
+}
